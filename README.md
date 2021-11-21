@@ -27,7 +27,7 @@ let's say the word was bcc and it guessed c for the last letter.
 
 Using cloudflare workers.
 
-/upload
-/predict
-/record 
-/interface
+- /upload uploads new words with a secret
+- /predict predicts what the word will be
+- /record  records the result of a game
+- /interface loads the UI
